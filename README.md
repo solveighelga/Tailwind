@@ -8,4 +8,4 @@
 ### Step4: It took some time getting the cards like I wanted them but as soon as I was done with one it was just copy paste.
 ### Step5: Make one product active. I wrote 'CHECK ME OUT' to make it easier to see what product is linkt to a page.
 ## Made a new html for a specific product
-### Step6: Page 2 has a extra 'HOME' button. I also used a 'card' to have the two pages connect. There is a image of the product and a 'BUY NOW' button. 
+### Step6: Page 2 has a extra 'HOME' button. I also used a 'card' to have the two pages connect. There is a image of the product and a 'BUY NOW' button. There was some important text that I made @apply 'ath' in my html and it made the text have a red border.
