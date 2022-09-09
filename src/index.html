@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+    <body class="text-gray-600 font-body">
+        <div>
+            <h1>
+        <!--Color changing text depending on the size of the screen-->
+                <a href="/" class="text-green-500 sm:text-red-500 lg:text-blue-500 pl-2">© FitbySigrún</a>
+            </h1>
+        </div>
+        <main class="px-16 py-6 bg-gray-100">
+             <!--Here I used @apply btn (check out my input.css)-->
+            <div class="flex justify-center md:justify-end">
+                <a href="#" class="btn text-primary">Log in</a>
+                <a href="#" class="btn text-primary ml-2">Sign up</a>
+            </div> 
+             <!--Here is my header-->
+            <header>
+                <h2 class="text-gray-700 text-6xl font-semibold pb-2">Æfingaplön</h2>
+                <h3 class="text-2xl font-semibold">Hit it Off og Run it Off</h3>
+            </header>
+            <!--Products for sale put into cards. They have a shadow to make them pop more. If you hover it will get bigger.-->
+            <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Veldu æfingaplan sem hentar þér</h4>
+                <!--Different colums for md and lg screen-->
+                <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!--Here is one card that brings you to a different page. Press anywhere on card.-->
+                    <a href="./hititoff_mur.html" class="card card-hover">
+                        <img src="../Images/hititoff_mur.jpg" class="object-contain">
+                        <div class="m-4">
+                            <span class="font-bold">Hit it Off</span>
+                            <span class="block text-gray-500 text-sm">fyrir verðandi og nýbakaðar mæður</span>
+                            <span class="font-bold text-blue-700 hover:text-red-500">CHECK ME OUT</span>
+                        </div>
+                    </a>
+                    <div class="card card-hover">
+                        <img src="../Images/hititoff.jpg" class="object-contain">
+                        <div class="m-4">
+                            <span class="font-bold">Hit it Off</span>
+                            <span class="block text-gray-500 text-sm">High Intensity æfingaplan fyrir konur og karla</span>
+                        </div>
+                    </div>
+                    <div class="card card-hover">
+                        <img src="../Images/runitoff.jpg" class="object-contain">
+                        <div class="m-4">
+                            <span class="font-bold">Run it Off</span>
+                            <span class="block text-gray-500 text-sm">Úti æfingaplan fyrir konur og karla</span>
+                        </div>
+                    </div>
+                    <div class="card card-hover">
+                        <img src="../Images/runitoff_mur.jpg" class="object-contain">
+                    </div>
+                </div>
+            </div>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200"></h4>
+        </main>
+    </body>
+</html>
